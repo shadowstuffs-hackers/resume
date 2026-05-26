@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Resume</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 10px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); }
+        header { text-align: center; border-bottom: 3px solid #667eea; padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { color: #667eea; font-size: 2.5em; margin-bottom: 5px; }
+        .contact-info { color: #666; font-size: 0.95em; }
+        .contact-info a { color: #667eea; text-decoration: none; margin: 0 10px; }
+        section { margin-bottom: 30px; }
+        h2 { color: #667eea; font-size: 1.8em; margin-bottom: 15px; border-left: 4px solid #667eea; padding-left: 10px; }
+        .job, .education, .project { margin-bottom: 20px; }
+        .job-title, .degree, .project-name { font-weight: bold; color: #333; font-size: 1.1em; }
+        .company, .school, .tech-stack { color: #667eea; font-style: italic; }
+        .date { color: #999; font-size: 0.9em; }
+        ul { margin-left: 20px; margin-top: 8px; }
+        li { margin-bottom: 5px; }
+        .skills-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .skill-group h3 { color: #667eea; margin-bottom: 8px; }
+        .skill-group { background: #f8f9ff; padding: 15px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Your Name</h1>
+            <div class="contact-info">
+                <a href="mailto:your.email@example.com">your.email@example.com</a> •
+                <a href="https://github.com/shadowstuffs-hackers">GitHub</a> •
+                <span>(123) 456-7890</span>
+            </div>
+        </header>
+        <section>
+            <h2>About Me</h2>
+            <p>Passionate developer with experience in full-stack web development, cloud technologies, and open-source contributions.</p>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <div class="job">
+                <div class="job-title">Senior Software Engineer</div>
+                <div class="company">Tech Company Inc.</div>
+                <div class="date">January 2023 - Present</div>
+                <ul>
+                    <li>Led development of microservices architecture</li>
+                    <li>Improved API response time by 40%</li>
+                    <li>Mentored 5 junior developers</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-group">
+                    <h3>Languages</h3>
+                    <p>JavaScript, Python, Java, Go, TypeScript</p>
+                </div>
+                <div class="skill-group">
+                    <h3>Frontend</h3>
+                    <p>React, Vue.js, HTML5, CSS3</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
